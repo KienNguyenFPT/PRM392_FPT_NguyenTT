@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "715603931909",
+    "project_id": "prm392pe-e01a8",
+    "storage_bucket": "prm392pe-e01a8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715603931909:android:9d758e604f6917c60ebd6c",
+        "android_client_info": {
+          "package_name": "com.example.PE_PRM392_Fall2024_QE170207"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCbVRaQcwv18zvhfEjIRReRgjuCtZEPE0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

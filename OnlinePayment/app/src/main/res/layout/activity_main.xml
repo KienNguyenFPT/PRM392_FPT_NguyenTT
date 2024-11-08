@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#B7E0FF">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="112dp"
+            android:layout_height="79dp"
+            android:gravity="center_vertical"
+            android:text="Mèo anh lông ngắn"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.053"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.22" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="223dp"
+            android:layout_height="54dp"
+            android:gravity="center_vertical"
+            android:text="1,000,000 VND/1 con"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.917"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.232" />
+
+        <EditText
+            android:id="@+id/edQuantity"
+            android:layout_width="256dp"
+            android:layout_height="56dp"
+            android:ems="10"
+            android:hint="Nhập số lương"
+            android:inputType="text"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.405" />
+
+        <Button
+            android:id="@+id/btnConfirm"
+            android:layout_width="239dp"
+            android:layout_height="75dp"
+            android:text="Xác nhận"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.536" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

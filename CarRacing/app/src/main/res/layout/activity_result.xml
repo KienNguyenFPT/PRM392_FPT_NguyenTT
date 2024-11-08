@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/winnerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Car Winner is: "
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/secondWinnerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Second Winner is: "
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/profitTitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result of bet money: "
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/profitText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/moneyLeftTitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total money: "
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/moneyLeftText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_gravity="center"/>
+</LinearLayout>

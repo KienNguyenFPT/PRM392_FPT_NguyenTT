@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextTenTacgia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên tác giả" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/editTextDiachi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Địa chỉ" />
+
+    <EditText
+        android:id="@+id/editTextDienthoai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Điện thoại" />
+
+    <Button
+        android:id="@+id/buttonAddTacgia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm Tác Giả" />
+</LinearLayout>

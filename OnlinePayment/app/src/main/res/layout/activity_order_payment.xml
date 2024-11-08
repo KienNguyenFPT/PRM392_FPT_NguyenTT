@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderPayment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#B7E0FF">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="129dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="Đơn hàng"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.14" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="157dp"
+            android:layout_height="55dp"
+            android:gravity="center"
+            android:text="Mèo anh lông ngắn"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.061"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.335" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="129dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="Số lượng"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.943"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.227" />
+
+        <TextView
+            android:id="@+id/txtQuantity"
+            android:layout_width="129dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:hint="Số lượng"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.932"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.331" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="129dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="Tổng tiền"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.106"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.434" />
+
+        <TextView
+            android:id="@+id/txtTotalMoney"
+            android:layout_width="208dp"
+            android:layout_height="41dp"
+            android:gravity="center"
+            android:hint="VND"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.905"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.435" />
+
+        <Button
+            android:id="@+id/btnThanhToan"
+            android:layout_width="237dp"
+            android:layout_height="54dp"
+            android:text="Thanh toàn bằng zalopay"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.573" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

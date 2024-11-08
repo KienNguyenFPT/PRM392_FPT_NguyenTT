@@ -1,0 +1,31 @@
+<!-- res/layout/item_tacgia.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tvTenTacgia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên Tác Giả" />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email" />
+
+    <TextView
+        android:id="@+id/tvDiachi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Địa chỉ" />
+
+    <TextView
+        android:id="@+id/tvDienthoai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Điện thoại" />
+</LinearLayout>

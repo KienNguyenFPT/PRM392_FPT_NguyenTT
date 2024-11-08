@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "24654983204",
+    "project_id": "prm392-e8566",
+    "storage_bucket": "prm392-e8566.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:24654983204:android:92df1cf3d3dbab255ee8b1",
+        "android_client_info": {
+          "package_name": "com.prm392.authentication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGoGzAl9LniMhsxLE504Rpir9WeR2dugo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:24654983204:android:50fbe6e3a23fbaa05ee8b1",
+        "android_client_info": {
+          "package_name": "com.prm392.authentication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGoGzAl9LniMhsxLE504Rpir9WeR2dugo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

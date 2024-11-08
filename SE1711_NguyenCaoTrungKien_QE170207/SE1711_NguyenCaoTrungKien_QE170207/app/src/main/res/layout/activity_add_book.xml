@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/topAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        app:navigationIcon="@drawable/ic_back"
+        app:title="Add Book"
+        app:titleTextColor="@android:color/white" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputLayoutBookName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/topAppBar"
+        android:layout_marginTop="8dp"
+        android:hint="Book Name">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTextBookName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputLayoutPublishDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputLayoutBookName"
+        android:layout_marginTop="8dp"
+        android:hint="Publish Date">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTextPublishDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputLayoutGenre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputLayoutPublishDate"
+        android:layout_marginTop="8dp"
+        android:hint="Genre">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTextGenre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputLayoutSpinnerAuthors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputLayoutGenre"
+        android:layout_marginTop="8dp"
+        android:hint="Select Author">
+
+        <Spinner
+            android:id="@+id/spinnerAuthors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputLayoutGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputLayoutSpinnerAuthors"
+        android:layout_marginTop="8dp"
+        android:hint="Gender">
+
+        <Spinner
+            android:id="@+id/spinnerGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonSaveBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputLayoutGender"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:text="Save"/>
+
+</RelativeLayout>

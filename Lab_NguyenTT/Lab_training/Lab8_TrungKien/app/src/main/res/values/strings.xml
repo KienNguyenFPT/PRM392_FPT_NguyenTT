@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lab8_VanNhat</string>
+    <string name="channel_name">My channel</string>
+    <string name="channel_description">This is my channel</string>
+</resources>
